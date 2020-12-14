@@ -33,7 +33,6 @@ private:
   QButtonGroup *connectButtons;
   bool tetheringEnabled;
 
-  void replyFinished(QNetworkReply *l);
   void connectToNetwork(Network n);
   QString getStringFromUser();
 
